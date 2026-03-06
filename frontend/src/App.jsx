@@ -15,7 +15,7 @@ function App() {
 
     try {
 
-      const response = await fetch("http://localhost:5000/mood", {
+      const response = await fetch("https://youtube-recommondations.onrender.com/mood", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
